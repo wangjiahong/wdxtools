@@ -14,7 +14,7 @@ foldername=logstash-all-plugins-2.4.0
 # https://www.elastic.co/downloads/logstash
 cd $serviceDir
 echo "[INFO] Download Logstash binaries"
-wget https://download.elastic.co/logstash/logstash/$filename
+wget https://download.elastic.co/logstash/logstash/logstash-all-plugins-2.3.4.tar.gz
 tar -xvzf $filename
 mv $foldername logstash
 cd logstash
